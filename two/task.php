@@ -33,16 +33,22 @@
 
         if ($n == 0 && $m == 1) {
             $count += 6;
+			echo $count;
         } else if ($n == 0 && $m == 2) {
             $count += 5;
+			echo $count;
         } else if ($n == 1 && $m == 2) {
             $count +=2;
+			echo $count;
         } else if ($n == 1 && $m == 1) {
             $count +=3;
+			echo $count;
+        } else if (($n / 2) != 0 && $m == 0) {
+            echo "-1";
         }
     }
 
-    echo $count;
+    
     ?>
     </div>
 </div>
