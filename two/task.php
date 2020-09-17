@@ -38,10 +38,10 @@
             $count += 5;
 			echo $count;
         } else if ($n == 1 && $m == 2) {
-            $count +=1;
+            $count +=2;
 			echo $count;
         } else if ($n == 1 && $m == 1) {
-            $count +=2;
+            $count +=3;
 			echo $count;
         } else if ($n == 1 && $m == 0) {
             echo "-1";
