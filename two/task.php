@@ -41,7 +41,7 @@
             $count +=2;
 			echo $count;
         } else if ($n == 1 && $m == 1) {
-            $count +=3;
+            $count +=2;
 			echo $count;
         } else if (($n / 2) != 0 && $m == 0) {
             echo "-1";
